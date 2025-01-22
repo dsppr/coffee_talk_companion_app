@@ -1,0 +1,173 @@
+{
+  "characters": [
+    { "name": "Freya", "image": "ICON-FREYA.webp" },
+    { "name": "Lua", "image": "ICON-LUA-01.webp" },
+    { "name": "Baileys", "image": "ICON-BAILEYS.webp" },
+    { "name": "Jorji", "image": "ICON-JORJI-01.webp" },
+    { "name": "Gala", "image": "ICON-GALA.webp" },
+    { "name": "Hyde", "image": "ICON-HYDE.webp" },
+    { "name": "Myrtle", "image": "ICON-MYRTILE-01.webp" },
+    { "name": "Rachel", "image": "ICON-RACHEL.webp" },
+    { "name": "Aqua", "image": "ICON-AQUA-01.webp" },
+    { "name": "Neil", "image": "ICON-NEIL-01.webp" },
+    { "name": "Hendry", "image": "ICON-HENDRY-01.webp" }
+  ],
+  "drinks": [
+    {
+      "name": "Espresso",
+      "image": "Espresso.webp",
+      "ingredients": ["Coffee", "Coffee", "Coffee"],
+      "customers": ["Freya", "Jorji"]
+    },
+    {
+      "name": "STMJ",
+      "image": "STMJ.webp",
+      "ingredients": ["Milk", "Ginger", "Honey"],
+      "customers": ["Freya", "Hendry"]
+    },
+    {
+      "name": "Black Magic",
+      "image": "Black_Magic.webp",
+      "ingredients": ["Coffee", "Mint", "Honey"],
+      "customers": ["Freya"]
+    },
+    {
+      "name": "Bedchamber",
+      "image": "Bedchamber.webp",
+      "ingredients": ["Milk", "Cinnamon", "Honey"],
+      "customers": ["Freya"]
+    },
+    {
+      "name": "Sugar and Spice",
+      "image": "Sugar_and_Spice.webp",
+      "ingredients": ["Coffee", "Honey", "Cinnamon"],
+      "customers": ["Freya"]
+    },
+    {
+      "name": "Dark Chocolate",
+      "image": "Dark_Chocolate.webp",
+      "ingredients": ["Chocolate", "Chocolate", "Chocolate"],
+      "customers": ["Lua", "Rachel"]
+    },
+    {
+      "name": "Green Tea Latte",
+      "image": "Green_Tea_Latte.webp",
+      "ingredients": ["Green Tea", "Milk", "Milk"],
+      "customers": ["Lua", "Baileys"]
+    },
+    {
+      "name": "Gingerbread Coffee",
+      "image": "Gingerbread_Coffee.webp",
+      "ingredients": ["Coffee", "Ginger", "Cinnamon"],
+      "customers": ["Lua"]
+    },
+    {
+      "name": "Cappuccino with Latte Art",
+      "image": "Cappuccino.webp",
+      "ingredients": ["Coffee", "Coffee", "Milk"],
+      "customers": ["Baileys"]
+    },
+    {
+      "name": "Bitter Heart",
+      "image": "Bitter_Heart.webp",
+      "ingredients": ["Chocolate", "Ginger", "Cinnamon"],
+      "customers": ["Baileys"]
+    },
+    {
+      "name": "Honey Coffee",
+      "image": "Honey_Milk.webp",
+      "ingredients": ["Coffee", "Honey", "Honey"],
+      "customers": ["Jorji"]
+    },
+    {
+      "name": "Jahe Tubruk",
+      "image": "Jahe_Tubruk.webp",
+      "ingredients": ["Coffee", "Coffee", "Ginger"],
+      "customers": ["Jorji", "Gala", "Hyde", "Myrtle"]
+    },
+    {
+      "name": "Gala Had",
+      "image": "Gala_Had.webp",
+      "ingredients": ["Tea", "Milk", "Ginger"],
+      "customers": ["Gala"]
+    },
+    {
+      "name": "Shin Genmaicha",
+      "image": "Green_Tea_Latte.webp",
+      "ingredients": ["Green Tea", "Ginger", "Ginger"],
+      "customers": ["Hyde"]
+    },
+    {
+      "name": "Midsummer Night’s Dream",
+      "image": "Midsummer_Nights_Dream.webp",
+      "ingredients": ["Tea", "Lemon", "Honey"],
+      "customers": ["Hyde"]
+    },
+    {
+      "name": "Honey Milk",
+      "image": "Honey_Milk.webp",
+      "ingredients": ["Milk", "Honey", "Honey"],
+      "customers": ["Myrtle"]
+    },
+    {
+      "name": "Shai Adeni",
+      "image": "STMJ.webp",
+      "ingredients": ["Milk", "Milk", "Milk"],
+      "customers": ["Myrtle", "Rachel", "Hendry"]
+    },
+    {
+      "name": "Caffé Latte",
+      "image": "Caffe_Latte.webp",
+      "ingredients": ["Coffee", "Milk", "Milk"],
+      "customers": ["Myrtle", "Rachel"]
+    },
+    {
+      "name": "Teh Tarik",
+      "image": "Teh_Tarik.webp",
+      "ingredients": ["Tea", "Tea", "Milk"],
+      "customers": ["Myrtle"]
+    },
+    {
+      "name": "Chocobee Miruku",
+      "image": "Chocobee_Miruku.webp",
+      "ingredients": ["Chocolate", "Honey", "Milk"],
+      "customers": ["Rachel"]
+    },
+    {
+      "name": "Masala Chai",
+      "image": "Masala_Chai.webp",
+      "ingredients": ["Tea", "Ginger", "Cinnamon"],
+      "customers": ["Aqua"]
+    },
+    {
+      "name": "Russian Tea",
+      "image": "Russian_Tea.webp",
+      "ingredients": ["Tea", "Lemon", "Cinnamon"],
+      "customers": ["Aqua"]
+    },
+    {
+      "name": "Marrakech",
+      "image": "Marrakech.webp",
+      "ingredients": ["Green Tea", "Mint", "Mint"],
+      "customers": ["Aqua"]
+    },
+    {
+      "name": "Black Lemon",
+      "image": "Black_Lemon.webp",
+      "ingredients": ["Coffee", "Coffee", "Lemon"],
+      "customers": ["Neil"]
+    },
+    {
+      "name": "Milky Way",
+      "image": "Milky_Way.webp",
+      "ingredients": ["Milk", "Honey", "Mint"],
+      "customers": ["Neil"]
+    },
+    {
+      "name": "Spanish Sahara",
+      "image": "Spanish_Sahara.webp",
+      "ingredients": ["Chocolate", "Milk", "Ginger"],
+      "customers": ["Hendry"]
+    }
+  ]
+}
