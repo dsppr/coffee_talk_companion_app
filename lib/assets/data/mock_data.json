@@ -1,16 +1,60 @@
 {
   "characters": [
-    { "name": "Freya", "image": "ICON-FREYA.webp" },
-    { "name": "Lua", "image": "ICON-LUA-01.webp" },
-    { "name": "Baileys", "image": "ICON-BAILEYS.webp" },
-    { "name": "Jorji", "image": "ICON-JORJI-01.webp" },
-    { "name": "Gala", "image": "ICON-GALA.webp" },
-    { "name": "Hyde", "image": "ICON-HYDE.webp" },
-    { "name": "Myrtle", "image": "ICON-MYRTILE-01.webp" },
-    { "name": "Rachel", "image": "ICON-RACHEL.webp" },
-    { "name": "Aqua", "image": "ICON-AQUA-01.webp" },
-    { "name": "Neil", "image": "ICON-NEIL-01.webp" },
-    { "name": "Hendry", "image": "ICON-HENDRY-01.webp" }
+    {
+      "name": "Freya",
+      "image": "ICON-FREYA.webp",
+      "description": "Freya Fatima, or simply Freya, is a main character in Coffee Talk. A frequent daily visitor of the coffee shop, she was a short story writer for The Evening Whispers newspaper before working to write her own book."
+    },
+    {
+      "name": "Lua",
+      "image": "ICON-LUA-01.webp",
+      "description": "Lua is a character and one of many customers in Coffee Talk. She is a succubus who was in a relationship with an elf named Baileys before eventually marrying him."
+    },
+    {
+      "name": "Baileys",
+      "image": "ICON-BAILEYS.webp",
+      "description": "Baileys is an elf and customer of Coffee Talk. He works as a freelance designer and was in a relationship with a succubus named Lua before eventually marrying her."
+    },
+    {
+      "name": "Jorji",
+      "image": "ICON-JORJI-01.webp",
+      "description": "Jorji (full name Jorji Williams) is a human police officer and a regular of the coffee shop."
+    },
+    {
+      "name": "Gala",
+      "image": "ICON-GALA.webp",
+      "description": "Gala is a werewolf and one of the customers who occasionally visits the coffee shop."
+    },
+    {
+      "name": "Hyde",
+      "image": "ICON-HYDE.webp",
+      "description": "Hyde is a vampire and one of many customers that visits Coffee Talk."
+    },
+    {
+      "name": "Myrtle",
+      "image": "ICON-MYRTILE-01.webp",
+      "description": "Myrtle is one of the main characters. She's a developer for the game Full Metal Conflict, likes to read in the shop, and forms a strong relationship with Aqua during her arc."
+    },
+    {
+      "name": "Rachel",
+      "image": "ICON-RACHEL.webp",
+      "description": "Rachel Florencia, or simply Rachel, is a young Nekomimi and one of many customers in Coffee Talk. She is a famous pop singer who recently started her solo career."
+    },
+    {
+      "name": "Aqua",
+      "image": "ICON-AQUA-01.webp",
+      "description": "Aqua is a young Oceanic woman and an occasional visitor of the coffee shop."
+    },
+    {
+      "name": "Neil",
+      "image": "ICON-NEIL-01.webp",
+      "description": "Silver, formerly known as Neil, is one of many customers at Coffee Talk. He is an alien who came to Earth initially to breed with its population in order to create offspring that would become the planet's protector."
+    },
+    {
+      "name": "Hendry",
+      "image": "ICON-HENDRY-01.webp",
+      "description": "Hendry is a Nekomimi and one of many customers in Coffee Talk. He is Rachel's father and owns a music record shop."
+    }
   ],
   "drinks": [
     {
