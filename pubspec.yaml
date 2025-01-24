@@ -23,7 +23,41 @@ dev_dependencies:
 flutter:
   assets:
     - lib/assets/data/mock_data.json
-    - lib/assets/images/ # Directory for images (logo, character images, etc.)
+    - lib/assets/images/ICON-FREYA.webp
+    - lib/assets/images/ICON-LUA-01.webp
+    - lib/assets/images/ICON-BAILEYS.webp
+    - lib/assets/images/ICON-JORJI-01.webp
+    - lib/assets/images/ICON-GALA.webp
+    - lib/assets/images/ICON-HYDE.webp
+    - lib/assets/images/ICON-MYRTILE-01.webp
+    - lib/assets/images/ICON-RACHEL.webp
+    - lib/assets/images/ICON-AQUA-01.webp
+    - lib/assets/images/ICON-NEIL-01.webp
+    - lib/assets/images/ICON-HENDRY-01.webp
+    - lib/assets/images/Espresso.webp
+    - lib/assets/images/STMJ.webp
+    - lib/assets/images/Black_Magic.webp
+    - lib/assets/images/Bedchamber.webp
+    - lib/assets/images/Sugar_and_Spice.webp
+    - lib/assets/images/Dark_Chocolate.webp
+    - lib/assets/images/Green_Tea_Latte.webp
+    - lib/assets/images/Gingerbread_Coffee.webp
+    - lib/assets/images/Cappuccino.webp
+    - lib/assets/images/Bitter_Heart.webp
+    - lib/assets/images/Honey_Milk.webp
+    - lib/assets/images/Jahe_Tubruk.webp
+    - lib/assets/images/Gala_Had.webp
+    - lib/assets/images/Midsummer_Nights_Dream.webp
+    - lib/assets/images/Caffe_Latte.webp
+    - lib/assets/images/Teh_Tarik.webp
+    - lib/assets/images/Chocobee_Miruku.webp
+    - lib/assets/images/Masala_Chai.webp
+    - lib/assets/images/Russian_Tea.webp
+    - lib/assets/images/Marrakech.webp
+    - lib/assets/images/Black_Lemon.webp
+    - lib/assets/images/Milky_Way.webp
+    - lib/assets/images/Spanish_Sahara.webp
+    - lib/assets/images/WIKICTLOGO-02.webp # Directory for images (logo, character images, etc.)
 
   fonts:
     - family: Poppins

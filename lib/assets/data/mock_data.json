@@ -2,214 +2,214 @@
   "characters": [
     {
       "name": "Freya",
-      "image": "ICON-FREYA.webp",
+      "image": "lib/assets/images/ICON-FREYA.webp",
       "description": "Freya Fatima, or simply Freya, is a main character in Coffee Talk. A frequent daily visitor of the coffee shop, she was a short story writer for The Evening Whispers newspaper before working to write her own book."
     },
     {
       "name": "Lua",
-      "image": "ICON-LUA-01.webp",
+      "image": "lib/assets/images/ICON-LUA-01.webp",
       "description": "Lua is a character and one of many customers in Coffee Talk. She is a succubus who was in a relationship with an elf named Baileys before eventually marrying him."
     },
     {
       "name": "Baileys",
-      "image": "ICON-BAILEYS.webp",
+      "image": "lib/assets/images/ICON-BAILEYS.webp",
       "description": "Baileys is an elf and customer of Coffee Talk. He works as a freelance designer and was in a relationship with a succubus named Lua before eventually marrying her."
     },
     {
       "name": "Jorji",
-      "image": "ICON-JORJI-01.webp",
+      "image": "lib/assets/images/ICON-JORJI-01.webp",
       "description": "Jorji (full name Jorji Williams) is a human police officer and a regular of the coffee shop."
     },
     {
       "name": "Gala",
-      "image": "ICON-GALA.webp",
+      "image": "lib/assets/images/ICON-GALA.webp",
       "description": "Gala is a werewolf and one of the customers who occasionally visits the coffee shop."
     },
     {
       "name": "Hyde",
-      "image": "ICON-HYDE.webp",
+      "image": "lib/assets/images/ICON-HYDE.webp",
       "description": "Hyde is a vampire and one of many customers that visits Coffee Talk."
     },
     {
       "name": "Myrtle",
-      "image": "ICON-MYRTILE-01.webp",
+      "image": "lib/assets/images/ICON-MYRTILE-01.webp",
       "description": "Myrtle is one of the main characters. She's a developer for the game Full Metal Conflict, likes to read in the shop, and forms a strong relationship with Aqua during her arc."
     },
     {
       "name": "Rachel",
-      "image": "ICON-RACHEL.webp",
+      "image": "lib/assets/images/ICON-RACHEL.webp",
       "description": "Rachel Florencia, or simply Rachel, is a young Nekomimi and one of many customers in Coffee Talk. She is a famous pop singer who recently started her solo career."
     },
     {
       "name": "Aqua",
-      "image": "ICON-AQUA-01.webp",
+      "image": "lib/assets/images/ICON-AQUA-01.webp",
       "description": "Aqua is a young Oceanic woman and an occasional visitor of the coffee shop."
     },
     {
       "name": "Neil",
-      "image": "ICON-NEIL-01.webp",
+      "image": "lib/assets/images/ICON-NEIL-01.webp",
       "description": "Silver, formerly known as Neil, is one of many customers at Coffee Talk. He is an alien who came to Earth initially to breed with its population in order to create offspring that would become the planet's protector."
     },
     {
       "name": "Hendry",
-      "image": "ICON-HENDRY-01.webp",
+      "image": "lib/assets/images/ICON-HENDRY-01.webp",
       "description": "Hendry is a Nekomimi and one of many customers in Coffee Talk. He is Rachel's father and owns a music record shop."
     }
   ],
   "drinks": [
     {
       "name": "Espresso",
-      "image": "Espresso.webp",
+      "image": "lib/assets/images/Espresso.webp",
       "ingredients": ["Coffee", "Coffee", "Coffee"],
       "customers": ["Freya", "Jorji"]
     },
     {
       "name": "STMJ",
-      "image": "STMJ.webp",
+      "image": "lib/assets/images/STMJ.webp",
       "ingredients": ["Milk", "Ginger", "Honey"],
       "customers": ["Freya", "Hendry"]
     },
     {
       "name": "Black Magic",
-      "image": "Black_Magic.webp",
+      "image": "lib/assets/images/Black_Magic.webp",
       "ingredients": ["Coffee", "Mint", "Honey"],
       "customers": ["Freya"]
     },
     {
       "name": "Bedchamber",
-      "image": "Bedchamber.webp",
+      "image": "lib/assets/images/Bedchamber.webp",
       "ingredients": ["Milk", "Cinnamon", "Honey"],
       "customers": ["Freya"]
     },
     {
       "name": "Sugar and Spice",
-      "image": "Sugar_and_Spice.webp",
+      "image": "lib/assets/images/Sugar_and_Spice.webp",
       "ingredients": ["Coffee", "Honey", "Cinnamon"],
       "customers": ["Freya"]
     },
     {
       "name": "Dark Chocolate",
-      "image": "Dark_Chocolate.webp",
+      "image": "lib/assets/images/Dark_Chocolate.webp",
       "ingredients": ["Chocolate", "Chocolate", "Chocolate"],
       "customers": ["Lua", "Rachel"]
     },
     {
       "name": "Green Tea Latte",
-      "image": "Green_Tea_Latte.webp",
+      "image": "lib/assets/images/Green_Tea_Latte.webp",
       "ingredients": ["Green Tea", "Milk", "Milk"],
       "customers": ["Lua", "Baileys"]
     },
     {
       "name": "Gingerbread Coffee",
-      "image": "Gingerbread_Coffee.webp",
+      "image": "lib/assets/images/Gingerbread_Coffee.webp",
       "ingredients": ["Coffee", "Ginger", "Cinnamon"],
       "customers": ["Lua"]
     },
     {
       "name": "Cappuccino with Latte Art",
-      "image": "Cappuccino.webp",
+      "image": "lib/assets/images/Cappuccino.webp",
       "ingredients": ["Coffee", "Coffee", "Milk"],
       "customers": ["Baileys"]
     },
     {
       "name": "Bitter Heart",
-      "image": "Bitter_Heart.webp",
+      "image": "lib/assets/images/Bitter_Heart.webp",
       "ingredients": ["Chocolate", "Ginger", "Cinnamon"],
       "customers": ["Baileys"]
     },
     {
       "name": "Honey Coffee",
-      "image": "Honey_Milk.webp",
+      "image": "lib/assets/images/Honey_Milk.webp",
       "ingredients": ["Coffee", "Honey", "Honey"],
       "customers": ["Jorji"]
     },
     {
       "name": "Jahe Tubruk",
-      "image": "Jahe_Tubruk.webp",
+      "image": "lib/assets/images/Jahe_Tubruk.webp",
       "ingredients": ["Coffee", "Coffee", "Ginger"],
       "customers": ["Jorji", "Gala", "Hyde", "Myrtle"]
     },
     {
       "name": "Gala Had",
-      "image": "Gala_Had.webp",
+      "image": "lib/assets/images/Gala_Had.webp",
       "ingredients": ["Tea", "Milk", "Ginger"],
       "customers": ["Gala"]
     },
     {
       "name": "Shin Genmaicha",
-      "image": "Green_Tea_Latte.webp",
+      "image": "lib/assets/images/Green_Tea_Latte.webp",
       "ingredients": ["Green Tea", "Ginger", "Ginger"],
       "customers": ["Hyde"]
     },
     {
       "name": "Midsummer Night’s Dream",
-      "image": "Midsummer_Nights_Dream.webp",
+      "image": "lib/assets/images/Midsummer_Nights_Dream.webp",
       "ingredients": ["Tea", "Lemon", "Honey"],
       "customers": ["Hyde"]
     },
     {
       "name": "Honey Milk",
-      "image": "Honey_Milk.webp",
+      "image": "lib/assets/images/Honey_Milk.webp",
       "ingredients": ["Milk", "Honey", "Honey"],
       "customers": ["Myrtle"]
     },
     {
       "name": "Shai Adeni",
-      "image": "STMJ.webp",
+      "image": "lib/assets/images/STMJ.webp",
       "ingredients": ["Milk", "Milk", "Milk"],
       "customers": ["Myrtle", "Rachel", "Hendry"]
     },
     {
       "name": "Caffé Latte",
-      "image": "Caffe_Latte.webp",
+      "image": "lib/assets/images/Caffe_Latte.webp",
       "ingredients": ["Coffee", "Milk", "Milk"],
       "customers": ["Myrtle", "Rachel"]
     },
     {
       "name": "Teh Tarik",
-      "image": "Teh_Tarik.webp",
+      "image": "lib/assets/images/Teh_Tarik.webp",
       "ingredients": ["Tea", "Tea", "Milk"],
       "customers": ["Myrtle"]
     },
     {
       "name": "Chocobee Miruku",
-      "image": "Chocobee_Miruku.webp",
+      "image": "lib/assets/images/Chocobee_Miruku.webp",
       "ingredients": ["Chocolate", "Honey", "Milk"],
       "customers": ["Rachel"]
     },
     {
       "name": "Masala Chai",
-      "image": "Masala_Chai.webp",
+      "image": "lib/assets/images/Masala_Chai.webp",
       "ingredients": ["Tea", "Ginger", "Cinnamon"],
       "customers": ["Aqua"]
     },
     {
       "name": "Russian Tea",
-      "image": "Russian_Tea.webp",
+      "image": "lib/assets/images/Russian_Tea.webp",
       "ingredients": ["Tea", "Lemon", "Cinnamon"],
       "customers": ["Aqua"]
     },
     {
       "name": "Marrakech",
-      "image": "Marrakech.webp",
+      "image": "lib/assets/images/Marrakech.webp",
       "ingredients": ["Green Tea", "Mint", "Mint"],
       "customers": ["Aqua"]
     },
     {
       "name": "Black Lemon",
-      "image": "Black_Lemon.webp",
+      "image": "lib/assets/images/Black_Lemon.webp",
       "ingredients": ["Coffee", "Coffee", "Lemon"],
       "customers": ["Neil"]
     },
     {
       "name": "Milky Way",
-      "image": "Milky_Way.webp",
+      "image": "lib/assets/images/Milky_Way.webp",
       "ingredients": ["Milk", "Honey", "Mint"],
       "customers": ["Neil"]
     },
     {
       "name": "Spanish Sahara",
-      "image": "Spanish_Sahara.webp",
+      "image": "lib/assets/images/Spanish_Sahara.webp",
       "ingredients": ["Chocolate", "Milk", "Ginger"],
       "customers": ["Hendry"]
     }

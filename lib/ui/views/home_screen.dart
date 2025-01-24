@@ -68,10 +68,12 @@ class _HomeScreenState extends State<HomeScreen> {
                                   const EdgeInsets.symmetric(horizontal: 8.0),
                               child: Column(
                                 children: [
-                                  Image.network(character.image,
-                                      width: 100,
-                                      height: 100,
-                                      fit: BoxFit.cover),
+                                  Image.asset(
+                                    character.image,
+                                    width: 100,
+                                    height: 100,
+                                    fit: BoxFit.cover,
+                                  ),
                                   Text(character.name),
                                 ],
                               ),
@@ -95,8 +97,12 @@ class _HomeScreenState extends State<HomeScreen> {
                           return Card(
                             margin: const EdgeInsets.symmetric(vertical: 8.0),
                             child: ListTile(
-                              leading: Image.network(drink.image,
-                                  width: 50, height: 50, fit: BoxFit.cover),
+                              leading: Image.asset(
+                                drink.image,
+                                width: 50,
+                                height: 50,
+                                fit: BoxFit.cover,
+                              ),
                               title: Text(drink.name),
                               subtitle: Text(
                                   'Ingredients: ${drink.ingredients.join(', ')}'),
