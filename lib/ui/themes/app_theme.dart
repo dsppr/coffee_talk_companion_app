@@ -16,16 +16,16 @@ class AppTheme {
       ),
       cardColor: AppColors.cardBackground,
       textTheme: const TextTheme(
-        headline1: TextStyle(
+        displayLarge: TextStyle(
           color: AppColors.textPrimary,
           fontSize: 24,
           fontWeight: FontWeight.bold,
         ),
-        bodyText1: TextStyle(
+        bodyLarge: TextStyle(
           color: AppColors.textPrimary,
           fontSize: 16,
         ),
-        bodyText2: TextStyle(
+        bodyMedium: TextStyle(
           color: AppColors.textSecondary,
           fontSize: 14,
         ),
