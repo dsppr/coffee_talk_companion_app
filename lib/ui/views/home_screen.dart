@@ -1,73 +1,112 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
-import 'dart:convert';
-import '../widgets/character_card_carousel.dart';
-import '../widgets/drink_card_grid.dart';
+import 'package:provider/provider.dart';
+import '../../viewmodels/character_viewmodel.dart';
+import '../../viewmodels/drink_viewmodel.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
   @override
-  HomeScreenState createState() => HomeScreenState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class HomeScreenState extends State<HomeScreen> {
-  late List<Map<String, dynamic>> characters = [];
-  late List<Map<String, dynamic>> drinks = [];
-  bool isLoading = true;
-
+class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();
-    loadData();
-  }
-
-  Future<void> loadData() async {
-    final jsonString =
-        await rootBundle.loadString('lib/assets/data/mock_data.json');
-    final data = jsonDecode(jsonString);
-    setState(() {
-      characters = List<Map<String, dynamic>>.from(data['characters']);
-      drinks = List<Map<String, dynamic>>.from(data['drinks']);
-      isLoading = false;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final characterViewModel = context.read<CharacterViewModel>();
+      final drinkViewModel = context.read<DrinkViewModel>();
+      characterViewModel.fetchCharacters();
+      drinkViewModel.fetchDrinks();
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    if (isLoading) {
-      return const Scaffold(
-        body: Center(child: CircularProgressIndicator()),
-      );
-    }
+    final characterViewModel = context.watch<CharacterViewModel>();
+    final drinkViewModel = context.watch<DrinkViewModel>();
 
     return Scaffold(
       appBar: AppBar(
         title: const Text('Coffee Talk Companion'),
+        centerTitle: true,
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const Text(
-              'Characters',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 16),
-            CharacterCardCarousel(characters: characters),
-            const SizedBox(height: 24),
-            const Text(
-              'Drinks',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            ),
-            const SizedBox(height: 16),
-            Expanded(
-              child: DrinkCardGrid(drinks: drinks),
-            ),
-          ],
-        ),
-      ),
+      body: characterViewModel.isLoading || drinkViewModel.isLoading
+          ? const Center(child: CircularProgressIndicator())
+          : characterViewModel.errorMessage != null ||
+                  drinkViewModel.errorMessage != null
+              ? Center(
+                  child: Text(
+                    characterViewModel.errorMessage ??
+                        drinkViewModel.errorMessage ??
+                        'Unknown error',
+                    style: const TextStyle(color: Colors.red, fontSize: 16),
+                  ),
+                )
+              : SingleChildScrollView(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        'Characters',
+                        style: TextStyle(
+                            fontSize: 24, fontWeight: FontWeight.bold),
+                      ),
+                      const SizedBox(height: 10),
+                      SizedBox(
+                        height: 150,
+                        child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemCount: characterViewModel.characters.length,
+                          itemBuilder: (context, index) {
+                            final character =
+                                characterViewModel.characters[index];
+                            return Card(
+                              margin:
+                                  const EdgeInsets.symmetric(horizontal: 8.0),
+                              child: Column(
+                                children: [
+                                  Image.network(character.image,
+                                      width: 100,
+                                      height: 100,
+                                      fit: BoxFit.cover),
+                                  Text(character.name),
+                                ],
+                              ),
+                            );
+                          },
+                        ),
+                      ),
+                      const SizedBox(height: 20),
+                      const Text(
+                        'Drinks',
+                        style: TextStyle(
+                            fontSize: 24, fontWeight: FontWeight.bold),
+                      ),
+                      const SizedBox(height: 10),
+                      ListView.builder(
+                        shrinkWrap: true,
+                        physics: const NeverScrollableScrollPhysics(),
+                        itemCount: drinkViewModel.drinks.length,
+                        itemBuilder: (context, index) {
+                          final drink = drinkViewModel.drinks[index];
+                          return Card(
+                            margin: const EdgeInsets.symmetric(vertical: 8.0),
+                            child: ListTile(
+                              leading: Image.network(drink.image,
+                                  width: 50, height: 50, fit: BoxFit.cover),
+                              title: Text(drink.name),
+                              subtitle: Text(
+                                  'Ingredients: ${drink.ingredients.join(', ')}'),
+                            ),
+                          );
+                        },
+                      ),
+                    ],
+                  ),
+                ),
     );
   }
 }
