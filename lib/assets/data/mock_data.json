@@ -3,57 +3,85 @@
     {
       "name": "Freya",
       "image": "lib/assets/images/ICON-FREYA.webp",
-      "description": "Freya Fatima, or simply Freya, is a main character in Coffee Talk. A frequent daily visitor of the coffee shop, she was a short story writer for The Evening Whispers newspaper before working to write her own book."
+      "description": "Freya Fatima, or simply Freya, is a main character in Coffee Talk. A frequent daily visitor of the coffee shop, she was a short story writer for The Evening Whispers newspaper before working to write her own book.",
+      "drinks": [
+        "Espresso",
+        "STMJ",
+        "Black Magic",
+        "Bedchamber",
+        "Sugar and Spice"
+      ]
     },
     {
       "name": "Lua",
       "image": "lib/assets/images/ICON-LUA-01.webp",
-      "description": "Lua is a character and one of many customers in Coffee Talk. She is a succubus who was in a relationship with an elf named Baileys before eventually marrying him."
+      "description": "Lua is a character and one of many customers in Coffee Talk. She is a succubus who was in a relationship with an elf named Baileys before eventually marrying him.",
+      "drinks": ["Dark Chocolate", "Green Tea Latte", "Gingerbread Coffee"]
     },
     {
       "name": "Baileys",
       "image": "lib/assets/images/ICON-BAILEYS.webp",
-      "description": "Baileys is an elf and customer of Coffee Talk. He works as a freelance designer and was in a relationship with a succubus named Lua before eventually marrying her."
+      "description": "Baileys is an elf and customer of Coffee Talk. He works as a freelance designer and was in a relationship with a succubus named Lua before eventually marrying her.",
+      "drinks": ["Green Tea Latte", "Cappuccino with Latte Art", "Bitter Heart"]
     },
     {
       "name": "Jorji",
       "image": "lib/assets/images/ICON-JORJI-01.webp",
-      "description": "Jorji (full name Jorji Williams) is a human police officer and a regular of the coffee shop."
+      "description": "Jorji (full name Jorji Williams) is a human police officer and a regular of the coffee shop.",
+      "drinks": ["Espresso", "Honey Coffee", "Jahe Tubruk"]
     },
     {
       "name": "Gala",
       "image": "lib/assets/images/ICON-GALA.webp",
-      "description": "Gala is a werewolf and one of the customers who occasionally visits the coffee shop."
+      "description": "Gala is a werewolf and one of the customers who occasionally visits the coffee shop.",
+      "drinks": ["Jahe Tubruk", "Gala Had"]
     },
     {
       "name": "Hyde",
       "image": "lib/assets/images/ICON-HYDE.webp",
-      "description": "Hyde is a vampire and one of many customers that visits Coffee Talk."
+      "description": "Hyde is a vampire and one of many customers that visits Coffee Talk.",
+      "drinks": ["Jahe Tubruk", "Shin Genmaicha", "Midsummer Night’s Dream"]
     },
     {
       "name": "Myrtle",
       "image": "lib/assets/images/ICON-MYRTILE-01.webp",
-      "description": "Myrtle is one of the main characters. She's a developer for the game Full Metal Conflict, likes to read in the shop, and forms a strong relationship with Aqua during her arc."
+      "description": "Myrtle is one of the main characters. She's a developer for the game Full Metal Conflict, likes to read in the shop, and forms a strong relationship with Aqua during her arc.",
+      "drinks": [
+        "Honey Milk",
+        "Shai Adeni",
+        "Caffé Latte",
+        "Teh Tarik",
+        "Jahe Tubruk"
+      ]
     },
     {
       "name": "Rachel",
       "image": "lib/assets/images/ICON-RACHEL.webp",
-      "description": "Rachel Florencia, or simply Rachel, is a young Nekomimi and one of many customers in Coffee Talk. She is a famous pop singer who recently started her solo career."
+      "description": "Rachel Florencia, or simply Rachel, is a young Nekomimi and one of many customers in Coffee Talk. She is a famous pop singer who recently started her solo career.",
+      "drinks": [
+        "Dark Chocolate",
+        "Shai Adeni",
+        "Caffé Latte",
+        "Chocobee Miruku"
+      ]
     },
     {
       "name": "Aqua",
       "image": "lib/assets/images/ICON-AQUA-01.webp",
-      "description": "Aqua is a young Oceanic woman and an occasional visitor of the coffee shop."
+      "description": "Aqua is a young Oceanic woman and an occasional visitor of the coffee shop.",
+      "drinks": ["Masala Chai", "Russian Tea", "Marrakech"]
     },
     {
       "name": "Neil",
       "image": "lib/assets/images/ICON-NEIL-01.webp",
-      "description": "Silver, formerly known as Neil, is one of many customers at Coffee Talk. He is an alien who came to Earth initially to breed with its population in order to create offspring that would become the planet's protector."
+      "description": "Silver, formerly known as Neil, is one of many customers at Coffee Talk. He is an alien who came to Earth initially to breed with its population in order to create offspring that would become the planet's protector.",
+      "drinks": ["Black Lemon", "Milky Way"]
     },
     {
       "name": "Hendry",
       "image": "lib/assets/images/ICON-HENDRY-01.webp",
-      "description": "Hendry is a Nekomimi and one of many customers in Coffee Talk. He is Rachel's father and owns a music record shop."
+      "description": "Hendry is a Nekomimi and one of many customers in Coffee Talk. He is Rachel's father and owns a music record shop.",
+      "drinks": ["STMJ", "Shai Adeni", "Spanish Sahara"]
     }
   ],
   "drinks": [

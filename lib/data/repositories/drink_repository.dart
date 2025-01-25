@@ -5,12 +5,14 @@ import '../models/drink_model.dart';
 class DrinkRepository {
   Future<List<Drink>> fetchDrinks() async {
     try {
-      // Membaca file JSON dari folder assets
       final String response =
           await rootBundle.loadString('lib/assets/data/mock_data.json');
       final Map<String, dynamic> data = json.decode(response);
 
-      // Parsing data menjadi list objek Drink
+      if (!data.containsKey('drinks')) {
+        throw Exception('Drinks key is missing in JSON.');
+      }
+
       return (data['drinks'] as List)
           .map((drink) => Drink.fromJson(drink))
           .toList();

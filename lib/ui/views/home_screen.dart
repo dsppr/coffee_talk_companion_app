@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../viewmodels/character_viewmodel.dart';
 import '../../viewmodels/drink_viewmodel.dart';
+import '../views/character_detail.dart';
+import '../views/drink_detail.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -63,19 +65,36 @@ class _HomeScreenState extends State<HomeScreen> {
                           itemBuilder: (context, index) {
                             final character =
                                 characterViewModel.characters[index];
-                            return Card(
-                              margin:
-                                  const EdgeInsets.symmetric(horizontal: 8.0),
-                              child: Column(
-                                children: [
-                                  Image.asset(
-                                    character.image,
-                                    width: 100,
-                                    height: 100,
-                                    fit: BoxFit.cover,
+                            return GestureDetector(
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => CharacterDetail(
+                                      character: character
+                                          .toJson(), // Updated: Using `toJson()` for cleaner code.
+                                    ),
                                   ),
-                                  Text(character.name),
-                                ],
+                                );
+                              },
+                              child: Card(
+                                margin:
+                                    const EdgeInsets.symmetric(horizontal: 8.0),
+                                child: Column(
+                                  children: [
+                                    Image.asset(
+                                      character.image,
+                                      width: 100,
+                                      height: 100,
+                                      fit: BoxFit.cover,
+                                    ),
+                                    const SizedBox(height: 4),
+                                    Text(
+                                      character.name,
+                                      style: const TextStyle(fontSize: 14),
+                                    ),
+                                  ],
+                                ),
                               ),
                             );
                           },
@@ -94,18 +113,32 @@ class _HomeScreenState extends State<HomeScreen> {
                         itemCount: drinkViewModel.drinks.length,
                         itemBuilder: (context, index) {
                           final drink = drinkViewModel.drinks[index];
-                          return Card(
-                            margin: const EdgeInsets.symmetric(vertical: 8.0),
-                            child: ListTile(
-                              leading: Image.asset(
-                                drink.image,
-                                width: 50,
-                                height: 50,
-                                fit: BoxFit.cover,
+                          return GestureDetector(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => DrinkDetail(
+                                    drink: drink
+                                        .toJson(), // Updated: Using `toJson()` for cleaner code.
+                                  ),
+                                ),
+                              );
+                            },
+                            child: Card(
+                              margin: const EdgeInsets.symmetric(vertical: 8.0),
+                              child: ListTile(
+                                leading: Image.asset(
+                                  drink.image,
+                                  width: 50,
+                                  height: 50,
+                                  fit: BoxFit.cover,
+                                ),
+                                title: Text(drink.name),
+                                subtitle: Text(
+                                  'Ingredients: ${drink.ingredients.join(', ')}',
+                                ),
                               ),
-                              title: Text(drink.name),
-                              subtitle: Text(
-                                  'Ingredients: ${drink.ingredients.join(', ')}'),
                             ),
                           );
                         },

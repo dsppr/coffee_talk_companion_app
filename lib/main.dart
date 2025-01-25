@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'ui/views/home_screen.dart';
+// import 'ui/views/home_screen.dart';
+import 'ui/views/splash_screen.dart';
 import 'viewmodels/character_viewmodel.dart';
 import 'viewmodels/drink_viewmodel.dart';
 import 'data/repositories/character_repository.dart';
@@ -31,7 +32,7 @@ class CoffeeTalkCompanionApp extends StatelessWidget {
           primarySwatch: Colors.brown,
           fontFamily: 'Poppins',
         ),
-        home: const HomeScreen(),
+        home: const SplashScreen(), // Set SplashScreen as the initial page.
       ),
     );
   }

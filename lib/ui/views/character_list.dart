@@ -28,7 +28,13 @@ class CharacterList extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) => CharacterDetail(
-                      character: character,
+                      character: {
+                        'name': character['name'],
+                        'image': character['image'],
+                        'description': character['description'],
+                        'drinks': character['drinks'] ??
+                            [], // Include drinks if available.
+                      },
                     ),
                   ),
                 );
