@@ -125,24 +125,24 @@ lib/
 
 ### 1. Splash Screen
 
-![Splash Screen](lib/assets/screenshots/splash_Screen.jpgassets\screenshots\splash_Screen.jpg)
+![Splash Screen](lib/assets/screenshots/splash_Screen.png)
 
 ### 2. Character List
 
-![Home Screen](lib/assets/screenshots/home_screen.jpg)
+![Home Screen](lib/assets/screenshots/home_screen.png)
 
 ### 3. Drink Details
 
-![Drink Details](lib/assets/screenshots/drink_detail.jpg)
+![Drink Details](lib/assets/screenshots/drink_detail.png)
 
 ### 4. Character Details
 
-![Drink Details](lib/assets/screenshots/character_detail.jpg)
+![Drink Details](lib/assets/screenshots/character_detail.png)
 
 ### 5. Brewing Simulation
 
-![Brewing Simulation](lib/assets/screenshots/brewing1.jpg)
-![Brewing Result](lib/assets/screenshots/brewing2.jpg)
+![Brewing Simulation](lib/assets/screenshots/brewing1.png)
+![Brewing Result](lib/assets/screenshots/brewing2.png)
 
 ---
 
