@@ -121,7 +121,28 @@ lib/
 
 ## Screenshots
 
-Add screenshots of the app here to showcase its features (e.g., Splash Screen, Character List, Drink Details, Brewing Simulation).
+## Screenshots
+
+### 1. Splash Screen
+
+![Splash Screen](lib/assets/screenshots/splash_Screen.jpgassets\screenshots\splash_Screen.jpg)
+
+### 2. Character List
+
+![Home Screen](lib/assets/screenshots/home_screen.jpg)
+
+### 3. Drink Details
+
+![Drink Details](lib/assets/screenshots/drink_detail.jpg)
+
+### 4. Character Details
+
+![Drink Details](lib/assets/screenshots/character_detail.jpg)
+
+### 5. Brewing Simulation
+
+![Brewing Simulation](lib/assets/screenshots/brewing1.jpg)
+![Brewing Result](lib/assets/screenshots/brewing2.jpg)
 
 ---
 
